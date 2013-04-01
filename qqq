@@ -1,0 +1,245 @@
+[1mdiff --git a/.idea/dataSources.ids b/.idea/dataSources.ids[m
+[1mindex 54053e1..fe92d5b 100644[m
+[1m--- a/.idea/dataSources.ids[m
+[1m+++ b/.idea/dataSources.ids[m
+[36m@@ -1 +1 @@[m
+[31m-<?xml version='1.0' encoding='UTF-8' ?><component name="dataSourceStorage"><data-source source="LOCAL" name="Rails music_app: development" product="SQLite" version="3.6.3" jdbc-version="2.1" driver-version="native" uuid="6ac06539-335c-4aeb-91f8-1cabc3b7f976"><jdbc-driver>org.sqlite.JDBC</jdbc-driver><jdbc-url>jdbc:sqlite:C:\RubyProjects\music_app\db\development.sqlite3</jdbc-url><libraries><library><url>file://$USER_HOME$/.RubyMine32/config/jdbc-drivers/zentus-sqlite-license.txt</url></library><library><url>jar://$USER_HOME$/.RubyMine32/config/jdbc-drivers/sqlitejdbc-v056.jar!/</url></library></libraries><table name="SCHEMA_MIGRATIONS" schema="" catalog="" type="TABLE"><column name="version" sqlType="VARCHAR(255)" length="2000000000" precision="10" nullable="false" jdbcType="12" /></table><table name="SQLITE_SEQUENCE" schema="" catalog="" type="TABLE"><column name="name" sqlType="" length="2000000000" precision="10" nullable="true" jdbcType="12" /><column name="seq" sqlType="" length="2000000000" precision="10" nullable="true" jdbcType="12" /></table><table name="USERS" schema="" catalog="" type="TABLE"><column name="id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="12" /><column name="name" sqlType="VARCHAR(255)" length="2000000000" precision="10" nullable="true" jdbcType="12" /><column name="email" sqlType="VARCHAR(255)" length="2000000000" precision="10" nullable="true" jdbcType="12" /><column name="created_at" sqlType="DATETIME" length="2000000000" precision="10" nullable="false" jdbcType="12" /><column name="updated_at" sqlType="DATETIME" length="2000000000" precision="10" nullable="false" jdbcType="12" /><column name="password_digest" sqlType="VARCHAR(255)" length="2000000000" precision="10" nullable="true" jdbcType="12" /><primary-key columns="id" /></table></data-source><data-source source="LOCAL" name="Rails music_app: test" product="SQLite" version="3.6.3" jdbc-version="2.1" driver-version="native" uuid="06447590-ed55-4478-b8eb-3ead893c8395"><jdbc-driver>org.sqlite.JDBC</jdbc-driver><jdbc-url>jdbc:sqlite:C:\RubyProjects\music_app\db\test.sqlite3</jdbc-url><libraries><library><url>file://$USER_HOME$/.RubyMine32/config/jdbc-drivers/zentus-sqlite-license.txt</url></library><library><url>jar://$USER_HOME$/.RubyMine32/config/jdbc-drivers/sqlitejdbc-v056.jar!/</url></library></libraries><table name="SCHEMA_MIGRATIONS" schema="" catalog="" type="TABLE"><column name="version" sqlType="VARCHAR(255)" length="2000000000" precision="10" nullable="false" jdbcType="12" /></table><table name="SQLITE_SEQUENCE" schema="" catalog="" type="TABLE"><column name="name" sqlType="" length="2000000000" precision="10" nullable="true" jdbcType="12" /><column name="seq" sqlType="" length="2000000000" precision="10" nullable="true" jdbcType="12" /></table><table name="USERS" schema="" catalog="" type="TABLE"><column name="id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="12" /><column name="name" sqlType="VARCHAR(255)" length="2000000000" precision="10" nullable="true" jdbcType="12" /><column name="email" sqlType="VARCHAR(255)" length="2000000000" precision="10" nullable="true" jdbcType="12" /><column name="created_at" sqlType="DATETIME" length="2000000000" precision="10" nullable="false" jdbcType="12" /><column name="updated_at" sqlType="DATETIME" length="2000000000" precision="10" nullable="false" jdbcType="12" /><column name="password_digest" sqlType="VARCHAR(255)" length="2000000000" precision="10" nullable="true" jdbcType="12" /><primary-key columns="id" /></table></data-source></component>[m
+\ No newline at end of file[m
+[32m+[m[32m<?xml version='1.0' encoding='UTF-8' ?><component name="dataSourceStorage"><data-source source="LOCAL" name="Rails music_app: development" product="SQLite" version="3.6.3" jdbc-version="2.1" driver-version="native" uuid="6ac06539-335c-4aeb-91f8-1cabc3b7f976"><jdbc-driver>org.sqlite.JDBC</jdbc-driver><jdbc-url>jdbc:sqlite:C:\RubyProjects\music_app\db\development.sqlite3</jdbc-url><libraries><library><url>file://$USER_HOME$/.RubyMine32/config/jdbc-drivers/zentus-sqlite-license.txt</url></library><library><url>jar://$USER_HOME$/.RubyMine32/config/jdbc-drivers/sqlitejdbc-v056.jar!/</url></library></libraries><table name="SCHEMA_MIGRATIONS" schema="" catalog="" type="TABLE"><column name="version" sqlType="VARCHAR(255)" length="2000000000" precision="10" nullable="false" jdbcType="12" /></table><table name="SQLITE_SEQUENCE" schema="" catalog="" type="TABLE"><column name="name" sqlType="" length="2000000000" precision="10" nullable="true" jdbcType="12" /><column name="seq" sqlType="" length="2000000000" precision="10" nullable="true" jdbcType="12" /></table><table name="USERS" schema="" catalog="" type="TABLE"><column name="id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="12" /><column name="name" sqlType="VARCHAR(255)" length="2000000000" precision="10" nullable="true" jdbcType="12" /><column name="email" sqlType="VARCHAR(255)" length="2000000000" precision="10" nullable="true" jdbcType="12" /><column name="created_at" sqlType="DATETIME" length="2000000000" precision="10" nullable="false" jdbcType="12" /><column name="updated_at" sqlType="DATETIME" length="2000000000" precision="10" nullable="false" jdbcType="12" /><column name="password_digest" sqlType="VARCHAR(255)" length="2000000000" precision="10" nullable="true" jdbcType="12" /><column name="remember_token" sqlType="VARCHAR(255)" length="2000000000" precision="10" nullable="true" jdbcType="12" /><primary-key columns="id" /></table></data-source><data-source source="LOCAL" name="Rails music_app: test" product="SQLite" version="3.6.3" jdbc-version="2.1" driver-version="native" uuid="06447590-ed55-4478-b8eb-3ead893c8395"><jdbc-driver>org.sqlite.JDBC</jdbc-driver><jdbc-url>jdbc:sqlite:C:\RubyProjects\music_app\db\test.sqlite3</jdbc-url><libraries><library><url>file://$USER_HOME$/.RubyMine32/config/jdbc-drivers/zentus-sqlite-license.txt</url></library><library><url>jar://$USER_HOME$/.RubyMine32/config/jdbc-drivers/sqlitejdbc-v056.jar!/</url></library></libraries><table name="SCHEMA_MIGRATIONS" schema="" catalog="" type="TABLE"><column name="version" sqlType="VARCHAR(255)" length="2000000000" precision="10" nullable="false" jdbcType="12" /></table><table name="SQLITE_SEQUENCE" schema="" catalog="" type="TABLE"><column name="name" sqlType="" length="2000000000" precision="10" nullable="true" jdbcType="12" /><column name="seq" sqlType="" length="2000000000" precision="10" nullable="true" jdbcType="12" /></table><table name="USERS" schema="" catalog="" type="TABLE"><column name="id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="12" /><column name="name" sqlType="VARCHAR(255)" length="2000000000" precision="10" nullable="true" jdbcType="12" /><column name="email" sqlType="VARCHAR(255)" length="2000000000" precision="10" nullable="true" jdbcType="12" /><column name="created_at" sqlType="DATETIME" length="2000000000" precision="10" nullable="false" jdbcType="12" /><column name="updated_at" sqlType="DATETIME" length="2000000000" precision="10" nullable="false" jdbcType="12" /><column name="password_digest" sqlType="VARCHAR(255)" length="2000000000" precision="10" nullable="true" jdbcType="12" /><primary-key columns="id" /></table></data-source></component>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/music_app.iml b/.idea/music_app.iml[m
+[1mindex 2a1e77c..34cd4c7 100644[m
+[1m--- a/.idea/music_app.iml[m
+[1m+++ b/.idea/music_app.iml[m
+[36m@@ -65,6 +65,7 @@[m
+     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v3.2.4, ruby-1.9.3-p392) [gem]" level="application" />[m
+     <orderEntry type="library" scope="PROVIDED" name="factory_girl (v2.3.2, ruby-1.9.3-p392) [gem]" level="application" />[m
+     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.1, ruby-1.9.3-p392) [gem]" level="application" />[m
+[32m+[m[32m    <orderEntry type="library" scope="PROVIDED" name="faker (v1.0.1, ruby-1.9.3-p392) [gem]" level="application" />[m
+     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v3.2.2, ruby-1.9.3-p392) [gem]" level="application" />[m
+     <orderEntry type="library" scope="PROVIDED" name="railties (v3.2.3, ruby-1.9.3-p392) [gem]" level="application" />[m
+     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.4, ruby-1.9.3-p392) [gem]" level="application" />[m
+[1mdiff --git a/.idea/workspace.xml b/.idea/workspace.xml[m
+[1mindex 4b2e0ed..4532370 100644[m
+[1m--- a/.idea/workspace.xml[m
+[1m+++ b/.idea/workspace.xml[m
+[36m@@ -2,7 +2,19 @@[m
+ <project version="4">[m
+   <component name="ChangeListManager">[m
+     <list default="true" id="3d023638-eb7d-4edf-9640-8e51b54193cc" name="Default" comment="">[m
+[31m-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />[m
+[32m+[m[32m      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/edit.erb" />[m
+[32m+[m[32m      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/index.erb" />[m
+[32m+[m[32m      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tasks/sample_data.rake" />[m
+[32m+[m[32m      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />[m
+[32m+[m[32m      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/music_app.iml" afterPath="$PROJECT_DIR$/.idea/music_app.iml" />[m
+[32m+[m[32m      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />[m
+[32m+[m[32m      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />[m
+[32m+[m[32m      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />[m
+[32m+[m[32m      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />[m
+[32m+[m[32m      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />[m
+[32m+[m[32m      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />[m
+[32m+[m[32m      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" />[m
+[32m+[m[32m      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />[m
+     </list>[m
+     <ignored path="music_app.iws" />[m
+     <ignored path=".idea/workspace.xml" />[m
+[36m@@ -29,64 +41,64 @@[m
+   </component>[m
+   <component name="FileEditorManager">[m
+     <leaf>[m
+[31m-      <file leaf-file-name="sessions_controller.rb" pinned="false" current="false" current-in-tab="false">[m
+[31m-        <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">[m
+[32m+[m[32m      <file leaf-file-name="users_controller.rb" pinned="false" current="true" current-in-tab="true">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+[31m-            <state line="12" column="27" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">[m
+[32m+[m[32m            <state line="15" column="0" selection-start="349" selection-end="349" vertical-scroll-proportion="0.35416666">[m
+               <folding />[m
+             </state>[m
+           </provider>[m
+         </entry>[m
+       </file>[m
+[31m-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">[m
+[31m-        <entry file="file://$PROJECT_DIR$/config/routes.rb">[m
+[32m+[m[32m      <file leaf-file-name="users_helper.rb" pinned="false" current="false" current-in-tab="false">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/app/helpers/users_helper.rb">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+[31m-            <state line="8" column="54" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0">[m
+[32m+[m[32m            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">[m
+               <folding />[m
+             </state>[m
+           </provider>[m
+         </entry>[m
+       </file>[m
+[31m-      <file leaf-file-name="new.erb" pinned="false" current="false" current-in-tab="false">[m
+[31m-        <entry file="file://$PROJECT_DIR$/app/views/sessions/new.erb">[m
+[32m+[m[32m      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/app/models/user.rb">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+[31m-            <state line="5" column="56" selection-start="194" selection-end="194" vertical-scroll-proportion="-3.2692308">[m
+[32m+[m[32m            <state line="12" column="25" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">[m
+               <folding />[m
+             </state>[m
+           </provider>[m
+         </entry>[m
+       </file>[m
+[31m-      <file leaf-file-name="authentication_pages_spec.rb" pinned="false" current="false" current-in-tab="false">[m
+[31m-        <entry file="file://$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb">[m
+[32m+[m[32m      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+[31m-            <state line="16" column="2" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0">[m
+[32m+[m[32m            <state line="3" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="-1.9615384">[m
+               <folding />[m
+             </state>[m
+           </provider>[m
+         </entry>[m
+       </file>[m
+[31m-      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">[m
+[31m-        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">[m
+[32m+[m[32m      <file leaf-file-name="index.erb" pinned="false" current="false" current-in-tab="false">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/app/views/users/index.erb">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+[31m-            <state line="30" column="2" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.4029536">[m
+[32m+[m[32m            <state line="3" column="7" selection-start="81" selection-end="81" vertical-scroll-proportion="-1.9615384">[m
+               <folding />[m
+             </state>[m
+           </provider>[m
+         </entry>[m
+       </file>[m
+[31m-      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">[m
+[31m-        <entry file="file://$PROJECT_DIR$/app/models/user.rb">[m
+[32m+[m[32m      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/Gemfile">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+[31m-            <state line="27" column="60" selection-start="908" selection-end="908" vertical-scroll-proportion="0.0">[m
+[32m+[m[32m            <state line="30" column="47" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0">[m
+               <folding />[m
+             </state>[m
+           </provider>[m
+         </entry>[m
+       </file>[m
+[31m-      <file leaf-file-name="sessions_helper.rb" pinned="false" current="false" current-in-tab="false">[m
+[31m-        <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">[m
+[32m+[m[32m      <file leaf-file-name="sessions_controller.rb" pinned="false" current="false" current-in-tab="false">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+[31m-            <state line="19" column="23" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">[m
+[32m+[m[32m            <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">[m
+               <folding />[m
+             </state>[m
+           </provider>[m
+[36m@@ -110,26 +122,27 @@[m
+     <setting file="mock:///Rails console: music_app" root0="SKIP_HIGHLIGHTING" />[m
+     <setting file="mock:///Rails console: music_app" root0="SKIP_HIGHLIGHTING" />[m
+     <setting file="mock:///Rails console: music_app" root0="SKIP_HIGHLIGHTING" />[m
+[32m+[m[32m    <setting file="mock:///Rails console: music_app" root0="SKIP_HIGHLIGHTING" />[m
+   </component>[m
+   <component name="IdeDocumentHistory">[m
+     <option name="changedFiles">[m
+       <list>[m
+[31m-        <option value="$PROJECT_DIR$/app/views/users/show.erb" />[m
+[31m-        <option value="$PROJECT_DIR$/config/routes.rb" />[m
+[31m-        <option value="$PROJECT_DIR$/app/views/sessions/new.erb" />[m
+[31m-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />[m
+[31m-        <option value="$PROJECT_DIR$/db/migrate/20130331203757_add_remember_token_to_users.rb" />[m
+[31m-        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />[m
+[31m-        <option value="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" />[m
+         <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />[m
+         <option value="$PROJECT_DIR$/app/models/user.rb" />[m
+[31m-        <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />[m
+[31m-        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />[m
+         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />[m
+[31m-        <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />[m
+[31m-        <option value="$PROJECT_DIR$/app/helpers/sessions_helper.rb" />[m
+         <option value="$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb" />[m
+         <option value="$PROJECT_DIR$/config/environments/production.rb" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/app/views/users/edit.erb" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/app/helpers/sessions_helper.rb" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/app/views/users/index.erb" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/lib/tasks/sample_data.rake" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/log/development.log" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/Gemfile" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/app/views/users/new.html.erb" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />[m
+       </list>[m
+     </option>[m
+   </component>[m
+[36m@@ -281,7 +294,7 @@[m
+               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />[m
+             </PATH_ELEMENT>[m
+             <PATH_ELEMENT>[m
+[31m-              <option name="myItemId" value="db" />[m
+[32m+[m[32m              <option name="myItemId" value="log" />[m
+               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />[m
+             </PATH_ELEMENT>[m
+           </PATH>[m
+[36m@@ -295,11 +308,25 @@[m
+               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />[m
+             </PATH_ELEMENT>[m
+             <PATH_ELEMENT>[m
+[31m-              <option name="myItemId" value="db" />[m
+[32m+[m[32m              <option name="myItemId" value="lib" />[m
+               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />[m
+             </PATH_ELEMENT>[m
+             <PATH_ELEMENT>[m
+[31m-              <option name="myItemId" value="migrate" />[m
+[32m+[m[32m              <option name="myItemId" value="tasks" />[m
+[32m+[m[32m              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />[m
+[32m+[m[32m            </PATH_ELEMENT>[m
+[32m+[m[32m          </PATH>[m
+[32m+[m[32m          <PATH>[m
+[32m+[m[32m            <PATH_ELEMENT>[m
+[32m+[m[32m              <option name="myItemId" value="music_app" />[m
+[32m+[m[32m              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />[m
+[32m+[m[32m            </PATH_ELEMENT>[m
+[32m+[m[32m            <PATH_ELEMENT>[m
+[32m+[m[32m              <option name="myItemId" value="music_app" />[m
+[32m+[m[32m              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />[m
+[32m+[m[32m            </PATH_ELEMENT>[m
+[32m+[m[32m            <PATH_ELEMENT>[m
+[32m+[m[32m              <option name="myItemId" value="lib" />[m
+               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />[m
+             </PATH_ELEMENT>[m
+           </PATH>[m
+[36m@@ -349,6 +376,24 @@[m
+               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />[m
+             </PATH_ELEMENT>[m
+           </PATH>[m
+[32m+[m[32m          <PATH>[m
+[32m+[m[32m            <PATH_ELEMENT>[m
+[32m+[m[32m              <option name="myItemId" value="music_app" />[m
+[32m+[m[32m              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />[m
+[32m+[m[32m            </PATH_ELEMENT>[m
+[32m+[m[32m            <PATH_ELEMENT>[m
+[32m+[m[32m              <option name="myItemId" value="music_app" />[m
+[32m+[m[32m              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />[m
+[32m+[m[32m            </PATH_ELEMENT>[m
+[32m+[m[32m            <PATH_ELEMENT>[m
+[32m+[m[32m              <option name="myItemId" value="app" />[m
+[32m+[m[32m              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />[m
+[32m+[m[32m            </PATH_ELEMENT>[m
+[32m+[m[32m            <PATH_ELEMENT>[m
+[32m+[m[32m              <option name="myItemId" value="controllers" />[m
+[32m+[m[32m              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />[m
+[32m+[m[32m            </PATH_ELEMENT>[m
+[32m+[m[32m          </PATH>[m
+         </subPane>[m
+       </pane>[m
+       <pane id="RailsProjectView" />[m
+[36m@@ -584,7 +629,9 @@[m
+       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />[m
+       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />[m
+       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />[m
+[32m+[m[32m      <RunnerSettings RunnerId="RubyDebugRunner" />[m
+       <RunnerSettings RunnerId="RubyRunner" />[m
+[32m+[m[32m      <ConfigurationWrapper RunnerId="RubyDebugRunner" />[m
+       <ConfigurationWrapper RunnerId="RubyRunner" />[m
+       <method />[m
+     </configuration>[m
+[36m@@ -675,7 +722,7 @@[m
+       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" side
