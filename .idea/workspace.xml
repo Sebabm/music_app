@@ -3,11 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="3d023638-eb7d-4edf-9640-8e51b54193cc" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/microposts_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/micropost.rb" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/microposts/_micropost.erb" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_feed.erb" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_feed_item.erb" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_micropost_form.erb" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_user_info.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130401020306_create_microposts.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/micropost_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/music_app.iml" afterPath="$PROJECT_DIR$/.idea/music_app.iml" />
